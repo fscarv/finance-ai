@@ -1,6 +1,4 @@
-import { UserButton } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
-import { dark } from "@clerk/themes";
 import { redirect } from "next/navigation";
 import Navbar from "./_components/navbar";
 
