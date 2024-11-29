@@ -24,11 +24,11 @@ const chartConfig = {
   },
   [TransactionType.DEPOSIT]: {
     label: "Receita",
-    color: "#E93030",
+    color: "#55B02E",
   },
   [TransactionType.EXPENSE]: {
     label: "Despesa",
-    color: "#55B02E",
+    color: "#E93030",
   },
 } satisfies ChartConfig;
 
