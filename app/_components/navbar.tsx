@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="flex items-center gap-10">
         {/* ESQUERDA */}
       <Image 
-        src={"/Logo.svg"}
+        src={"/logo.svg"}
         alt="Logo Finance AI"
         width={173}
         height={39}
