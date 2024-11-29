@@ -16,7 +16,7 @@ const LoginPage = async () => {
       {/* ESQUERDA */}
       <div className="flex flex-col h-full max-w-[550px] p-8 mx-auto">
         <Image
-          src={"Logo.svg"}
+          src={"/logo.svg"}
           alt="Finance AI"
           width={173}
           height={39}
