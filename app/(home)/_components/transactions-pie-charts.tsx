@@ -43,7 +43,7 @@ const TransactionsPieChart = ({ depositsTotal, investmentsTotal, expensesTotal, 
   const chartData = [{
     type: TransactionType.DEPOSIT,
     amount: depositsTotal,
-    fill: "#E93030",
+    fill: "#55B02E",
   }, {
     type: TransactionType.INVESTMENT,
     amount: investmentsTotal,
@@ -51,7 +51,7 @@ const TransactionsPieChart = ({ depositsTotal, investmentsTotal, expensesTotal, 
   }, {
     type: TransactionType.EXPENSE,
     amount: expensesTotal,
-    fill: "#55B02E",
+    fill: "#E93030",
   }];
 
   return (
