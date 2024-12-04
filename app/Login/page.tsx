@@ -37,7 +37,7 @@ const LoginPage = async () => {
       {/* DIREITA */}
       <div className="relative h-full w-full">
         <Image
-          src={"/Login.png"}
+          src={"/login.png"}
           alt="Faça login"
           fill
           className="object-cover" />
