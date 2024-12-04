@@ -18,6 +18,9 @@ const TransactionsPage = async () => {
     where: {
       userId,
     },
+    orderBy: {
+      date: "desc",
+    },
   });
 
   const userCanAddTransaction = await canUserAddTransaction();
@@ -25,11 +28,11 @@ const TransactionsPage = async () => {
   return (
     <>
       <Navbar />
-      <div className="p-6 space-y-6 overflow-hidden">
+      <div className="p-6 space-y-6 overflow-y-auto">
         {/* TÍTULO E BOTÃO */}
         <div className="flex w-full items-center justify-between">
           <h1 className="text-2xl font-bold">Transações</h1>
-          <UpsertTransactionButton userCanAddTransaction={userCanAddTransaction}  />
+          <UpsertTransactionButton userCanAddTransaction={userCanAddTransaction} />
         </div>
         <ScrollArea>
           <DataTable
